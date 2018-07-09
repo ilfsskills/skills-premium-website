@@ -1,0 +1,177 @@
+/*!
+Theme Name: Divi Child Theme
+Theme URI: http://www.ilfsets.com/
+Description: A Divi Child Theme
+Author: IL&FS Education and Technology Services Limited
+Author URI: http://www.ilfsets.com
+Template: Divi
+Version: 1.0.0
+*/
+@import url("../Divi/style.css");
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#logo{
+	max-height:100%;
+}
+
+
+h1,h2,h3,h4,h5{font-weight:100; font-family:'Raleway', sans-serif!important;}
+.et_pb_column_1_4 h2 {text-align:center!important;}
+body,p{font-family:'Raleway', sans-serif!important;}
+/*h1{font-size: 350%}
+h2 {font-size: 250%;}
+h3 {font-size: 200%;}
+h4 {font-size: 150%;}*/
+
+.et_pb_fullwidth_header_container {width:100%!important;}
+.banner_txt_container{width:50%; float:right;}
+
+.et_pb_text_1{background-color:rgba(0,0,0,0.72)}
+@media only screen and (max-width: 600px) {
+    .page-container {
+        padding-top: 30px!important;
+    }
+}
+@media only screen and (max-width: 768px){
+	.et_pb_row {
+		width:100%!important;
+	}
+}
+
+/*Blocks*/
+.et_pb_text{margin: 1em!important;}
+.block-container{width: 100%; margin: 0; padding: 0; background: #ffffff; border: 1px solid #aeaeae;}
+.img-container{position: relative; z-index: 0;}
+
+.title-text {position: absolute; right: 0em; bottom: 1em;}
+.title-text {display: inline-block;
+ background-color: rgba(17, 69, 126, 0.8); 
+ border-radius: 2px; 
+font-size:120%;
+ color: white; 
+ padding:10px 25px;
+	z-index: 1;
+ }
+.body-text{padding:1em; border-bottom: 1px solid #aeaeae; font-size:105%}
+/* ref from codepen.io */
+.buttons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 500px;
+  height: 260px;
+  margin-top: -130px;
+  margin-left: -250px;
+  text-align: center;
+}
+
+.set:not(:last-child) {
+  border-bottom: 1px dotted #aaa;
+}
+
+.btn {
+  display: inline-block;
+  max-width: 80%;
+  /*margin: 15px 5px;*/
+  padding: 10px 15px 12px;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 1px rgba(0, 0, 0, 0.1), inset 0 -10px 20px rgba(0, 0, 0, 0.1);
+  cursor: context-menu;
+}
+/*Pri awesome font*/
+.btn.pri {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.set.blue .btn.pri {
+  background: #59d;
+}
+
+.btn.pri.ico {
+  position: relative;
+  padding-left: 40px;
+  text-align: left;
+	width:80%
+}
+
+.btn.pri.ico:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 30px;
+  padding: 10px 0 12px;
+  font-family: fontawesome;
+  text-align: center;
+  border-radius: 3px 0 0 3px;
+  /*background: rgba(0, 0, 0, 0.15);*/
+}
+/*Pri awesome font end*/
+
+.set.blue .btn.pri.ico:before {
+  content: "\f073";
+}
+/* Location Button */
+.btn.sec {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+}
+
+.set.blue .btn.sec {
+  background: #59d;
+}
+
+.btn.sec.ico {
+  position: relative;
+  padding-left: 40px;
+  text-align: left;
+	width:80%
+}
+
+.btn.sec.ico:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 30px;
+  padding: 10px 0 12px;
+  font-family: fontawesome;
+  text-align: center;
+  border-radius: 3px 0 0 3px;
+  /*background: rgba(0, 0, 0, 0.15);*/
+}
+/*Pri awesome font end*/
+.set.blue .btn.sec.ico:before {
+  content: "\f041";
+}
+
+/* codepen.io END */
+.seperator{margin:.5em;}
+
+.know-more-container.btn-know-more{
+	padding: 0;
+}
+a.btn-know-more{
+	color: #f63;
+	text-align:right;
+	font-weight:600;
+	display: table;
+    width: 100%; 
+	padding: 1em;
+	text-decoration:none;
+}
+a.btn-know-more:hover{background-color: #f63;
+color:#ffffff;
+text-decoration:none;}
+
+.title-text>last child {padding-bottom:0px}
+/*Top Menu*/
+#top-menu a{color:rgba(0,0,0,.6)!important;}
+/* Home Banner Image */
+.img-description{background-color: rgba(0, 0, 0, .7); padding:1em;}
+/*Post thumb hide*/
+.attachment-post-thumbnail {
+display:none!important;
+}
